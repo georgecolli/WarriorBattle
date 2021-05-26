@@ -6,6 +6,9 @@ namespace WarriorBattle
     {
         public static void Play(Warrior warrior1, Warrior warrior2)
         {
+
+
+
             while (true)
             {
                 HandleAttack(warrior1, warrior2);
