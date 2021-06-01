@@ -7,8 +7,6 @@ namespace WarriorBattle
         public static void Play(Warrior warrior1, Warrior warrior2)
         {
 
-
-
             while (true)
             {
                 HandleAttack(warrior1, warrior2);
@@ -50,6 +48,11 @@ namespace WarriorBattle
             {
                 Console.WriteLine("{0} received no damage\n", warriorB.Name);
             }
+        }
+
+        static void HandleSpecial(Warrior warriorA, Warrior warriorB)
+        {
+
         }
     }
 }
