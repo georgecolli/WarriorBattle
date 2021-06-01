@@ -14,14 +14,14 @@ namespace WarriorBattle
                 HandleAttack(warrior1, warrior2);
                 if (warrior2.Health < 0)
                 {
-                    Console.WriteLine("{0} has died", warrior2.Name);
+                    Console.WriteLine($"{0} has died", warrior2.Name);
                     break;
                 };
 
                 HandleAttack(warrior2, warrior1);
                 if (warrior1.Health < 0)
                 {
-                    Console.WriteLine("{0} has died", warrior1.Name);
+                    Console.WriteLine($"{0} has died", warrior1.Name);
                     break;
                 };
             };

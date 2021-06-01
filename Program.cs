@@ -21,7 +21,7 @@ namespace WarriorBattle
             Console.WriteLine(player2.Speak(1)); //low enough that it will return a particular phrase
             Console.WriteLine(player1.Speak(10)); //high enough to return a random phrase
             Console.WriteLine(player2.Speak(8)); //high enough to return a random phrase
-            Battle.Play(player2, player1);
+            Battle.Play(player1, player2);
         }
     }
 }
