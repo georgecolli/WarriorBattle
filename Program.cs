@@ -15,8 +15,8 @@ namespace WarriorBattle
             Console.WriteLine("Player 2, what is your name?");
             string player2Name = ReadLine().Trim();
 
-            Warrior player1 = new Warrior(player1Name, 1000);
-            Warrior player2 = new Warrior(player2Name, 1000);
+            Warrior player1 = new Warrior(player1Name, 500);
+            Warrior player2 = new Warrior(player2Name, 500);
             Console.WriteLine(player1.Speak(5)); //low enough that it will return a particular phrase
             Console.WriteLine(player2.Speak(1)); //low enough that it will return a particular phrase
             Console.WriteLine(player1.Speak(10)); //high enough to return a random phrase
